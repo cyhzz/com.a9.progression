@@ -7,9 +7,9 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.Reflection;
 
+using Com.A9.Singleton;
 using Com.A9.FileReader;
 using Com.A9.Language;
-using Com.A9.Singleton;
 
 namespace Com.A9.Progression
 {
