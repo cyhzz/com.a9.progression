@@ -1,0 +1,22 @@
+{
+  "name": "com.a9.progression",
+  "version": "1.0.1",
+  "description": "Progression",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyhzz/com.a9.progression.git"
+  },
+  "author": "A9019",
+  "keywords": [
+    "git",
+    "editor"
+  ],
+  "dependencies": {
+    "com.a9.xml_reader":"https://github.com/cyhzz/com.a9.xml_reader.git",
+    "com.a9.singleton":"https://github.com/cyhzz/com.a9.singleton.git",
+    "com.a9.language":"https://github.com/cyhzz/com.a9.language.git"
+  },
+  "displayName": "A9 Progression",
+  "unity": "2020.3"
+}

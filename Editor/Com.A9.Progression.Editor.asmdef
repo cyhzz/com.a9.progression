@@ -1,0 +1,17 @@
+{
+    "name": "Com.A9.Progression.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8a65b104d2cf848c7a5178a1fe80efc4",
+        "GUID:8fb9d05115b044f97bef602de7f0bc7d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
