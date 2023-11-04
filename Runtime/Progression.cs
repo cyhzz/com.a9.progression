@@ -193,7 +193,7 @@ namespace Com.A9.Progression
                 lst.RemoveAt(0);
                 object[] args = lst.ToArray();
 
-                MethodInfo md = Type.GetType(cls).GetMethod(nm, BindingFlags.Instance | BindingFlags.Public | BindingFlags.Static);
+                MethodInfo md = Type.GetType($"{cls}, Assembly-CSharp").GetMethod(nm, BindingFlags.Instance | BindingFlags.Public | BindingFlags.Static);
                 md.Invoke(null, args);
             }
         }
