@@ -184,13 +184,16 @@ namespace Com.A9.Progression
             for (int i = 0; i < all.Length; i++)
             {
                 string[] parse = all[i].Split(' ');
-                string nm = parse[0];
+
+                string cls = parse[0];
+                string nm = parse[1];
 
                 var lst = parse.ToList();
                 lst.RemoveAt(0);
+                lst.RemoveAt(0);
                 object[] args = lst.ToArray();
 
-                MethodInfo md = typeof(ProgressionRewards).GetMethod(nm, BindingFlags.Instance | BindingFlags.Public | BindingFlags.Static);
+                MethodInfo md = Type.GetType(cls).GetMethod(nm, BindingFlags.Instance | BindingFlags.Public | BindingFlags.Static);
                 md.Invoke(null, args);
             }
         }
