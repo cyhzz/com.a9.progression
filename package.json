@@ -13,9 +13,9 @@
     "editor"
   ],
   "dependencies": {
-    "com.a9.xml_reader":"https://github.com/cyhzz/com.a9.xml_reader.git",
-    "com.a9.singleton":"https://github.com/cyhzz/com.a9.singleton.git",
-    "com.a9.language":"https://github.com/cyhzz/com.a9.language.git"
+    "com.a9.xml_reader": "1.0.1",
+    "com.a9.singleton": "1.0.1",
+    "com.a9.language": "1.0.1"
   },
   "displayName": "A9 Progression",
   "unity": "2020.3"
